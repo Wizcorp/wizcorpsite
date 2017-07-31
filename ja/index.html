@@ -368,7 +368,9 @@
                                                                     <br>遊び方はとってもかんたん、落ちてくるマカロンを3つ揃えるだけ♪
                                                                     <br>食いしん坊なぽちゃキャラたちに
                                                                     <br>美味しいマカロンを食べさせてあげよう！
-                                                                    <br><br><a href="https://games.yahoo-net.jp/title/casual/529766373" target="_blank">https://games.yahoo-net.jp/title/casual/529766373</a>
+                                                                    <br>
+                                                                    <div class="popupVideo" id="pochamoguVideo"></div>
+                                                                    <br><a href="https://games.yahoo-net.jp/title/casual/529766373" target="_blank">https://games.yahoo-net.jp/title/casual/529766373</a>
                                                                     </div>
                                                                     <div class="modal-data-button"></div> </div>
                                                                 </div>
@@ -630,6 +632,7 @@
 
         var dofusPlayer;
         var gundamPlayer;
+        var pochamoguPlayer;
         function onYouTubeIframeAPIReady() {
             dofusPlayer = new YT.Player('dofusVideo', {
                 height: '248',
@@ -640,6 +643,11 @@
                 height: '248',
                 width: '440',
                 videoId: '260Rh2dvLxc'
+            });
+            pochamoguPlayer = new YT.Player('pochamoguVideo', {
+                height: '248',
+                width: '440',
+                videoId: 'N8O1X2OAGBY'
             });
         }
         </script>
