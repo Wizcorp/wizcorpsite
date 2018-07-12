@@ -309,6 +309,26 @@ input[type="color"],
 	margin-right: 150px !important;
 }
 
+.home {
+	position: relative;
+}
+.home .logoAnniversary {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	width: 184px;
+	height: 150px;
+	background: url(../../images/logo_anniversary.png) 50% 50% no-repeat;
+	background-size: contain;
+}
+
+@media only screen and (max-width: 768px) {
+	.home .logoAnniversary {
+		width: 92px;
+		height: 75px;
+	}
+}
+
 .introducing .block {
 	padding: 0 15px 30px;
 }
