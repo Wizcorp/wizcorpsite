@@ -6218,6 +6218,7 @@ body.page .page {
 .tumblr .post-body {
     padding: 6%;
     background-color: #fff;
+    word-break: break-word;
 }
 [lang="ja"] .tumblr .post-body {
     font-size: 13px;
