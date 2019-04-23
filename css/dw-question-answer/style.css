@@ -837,11 +837,11 @@ input[type="submit"].dwqa-btn-block,input[type="reset"].dwqa-btn-block,input[typ
 }
 
 .dwqa-container .dwqa-list-question .filter .status-replied a,.dwqa-container .dwqa-list-question .filter .replied a {
-    color: #1ba1e2;
+    color: #ff7f01;
 }
 
 .dwqa-container .dwqa-list-question .filter .status-answered a,.dwqa-container .dwqa-list-question .filter .answered a {
-    color: #1ba1e2;
+    color: #ff7f01;
 }
 
 .dwqa-container .dwqa-list-question .filter .status-resolved a,.dwqa-container .dwqa-list-question .filter .resolved a {
@@ -1268,7 +1268,7 @@ input[type="submit"].dwqa-btn-block,input[type="reset"].dwqa-btn-block,input[typ
 }
 
 .dwqa-container .dwqa-single-question .dwqa-footer .dwqa-current-status .dwqa-btn-group .dwqa-dropdown-menu li.dwqa-re-open>a:hover {
-    background-color: #1ba1e2;
+    background-color: #ff7f01;
 }
 
 .dwqa-container .dwqa-single-question .dwqa-footer .dwqa-current-status .dwqa-btn-group .dwqa-dropdown-menu li.dwqa-open>a:hover {
@@ -1980,7 +1980,7 @@ body .dwqa-container .dwqa-single-question .dwqa-content a:hover,body .dwqa-cont
 }
 
 .dwqa-container .dwqa-submit-question .input-title .dwqa-search-clear:hover,.dwqa-container .dwqa-submit-question .input-title .dwqa-search-loading:hover {
-    color: #1ba1e2;
+    color: #ff7f01;
 }
 
 .dwqa-container .dwqa-submit-question .input-title .dwqa-search-clear {
@@ -2171,7 +2171,7 @@ body .dwqa-container a {
 }
 
 .dwqa-container .dwqa-search-form .dwqa-search-submit:hover,.dwqa-container .dwqa-search-form .dwqa-search-clear:hover,.dwqa-container .dwqa-search-form .dwqa-search-loading:hover {
-    color: #1ba1e2;
+    color: #ff7f01;
 }
 
 .dwqa-container .dwqa-search-form .dwqa-search-submit {
@@ -2334,7 +2334,7 @@ body .dwqa-container a {
 }
 
 .dwqa-container .dwqa-status .staff-answered {
-    background: #1ba1e2!important;
+    background: #ff7f01!important;
 }
 
 .dwqa-container .dwqa-status .staff-answered:before {
@@ -2354,7 +2354,7 @@ body .dwqa-container a {
 }
 
 .dwqa-container .dwqa-status.status-answered {
-    background: #1ba1e2;
+    background: #ff7f01;
 }
 
 .dwqa-container .dwqa-status.status-resolved {
