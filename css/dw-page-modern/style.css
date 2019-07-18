@@ -1133,16 +1133,22 @@ body[class*="landing"] .list-inline.social-inline .github a:hover,
   width: 80px;
 }
 
-
-.customers .block {
-	height: 80px;
-	
-}
-
-.customers .content {
-	margin: auto 0;
-}
-
 .customers {
 	padding-bottom: 50px;
+}
+
+.customers .section-content {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.customers .block {
+	margin: 10px; 
+	text-align: center;
+}
+.customers .block, .customers .block img {
+	min-width: 150px;
+	max-width: 250px;
 }
