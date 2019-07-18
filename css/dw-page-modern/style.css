@@ -130,9 +130,9 @@ input[type="color"],
 }
 
 .section-title.service p {
-	width: 800px; 
+	/*width: 800px; */
 	margin: 30px auto 0;
-	font-size: 28px;
+	font-size: 18px;
 	line-height: 34px;
 }
 
@@ -312,11 +312,11 @@ input[type="color"],
 }*/
 
 .header .hero-unit p {
-	font-size: 42px;
+	font-size: 32px;
 	line-height: 44px;
-	font-weight: 500;
+	font-weight: 400;
 	color: #fff;
-	margin: 200px 50px 5px;
+	margin: 90px 50px 5px;
 	text-shadow: 0px 0px 1px rgba(0, 0, 0, 1), 
 		0px 0px 4px rgba(0, 0, 0, 1), 
 		0px 0px 8px rgba(0, 0, 0, 1), 
@@ -358,13 +358,13 @@ input[type="color"],
 }
 
 .introducing .block {
-	padding: 0 15px 30px;
+	padding: 0 15px 10px;
 }
 
 
 .introducing .section-img {
 	border: none;
-	height: 140px;
+	height: 100px;
 	margin-bottom: 0;
 }
 
@@ -374,16 +374,44 @@ input[type="color"],
 
 .introducing .section-content-title,
 .introducing .section-content-title a {
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: 300;
 	color: #333;
 	margin-top: 0;
 }
 
+.numbers .block {
+	padding: 0 15px 30px;
+}
+
+
+.numbers .section-nb {
+	border: none;
+	height: 42px;
+	margin-top: 20px;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 400;
+	color: #ff7f01;
+}
+
+.numbers [class*="icon-tpl"] {
+	background-image: url(img/intro-icons.png);
+}
+
+.numbers .section-content-title,
+.numbers .section-content-title a {
+	font-size: 18px;
+	font-weight: 300;
+	color: #333;
+	margin-top: 0;
+	text-align: center;
+}
+
 .section.tumblr,
 .section.portfolio {
-	background: url(img/portfolio-bg.jpg) fixed;
-	background-size: cover;
+	/*background: url(img/portfolio-bg.jpg) fixed;
+	background-size: cover;*/
 	padding-bottom: 35px;
 }
 
@@ -578,7 +606,10 @@ input[type="color"],
 	color: #047ecc;
 }
 
-.section.about {
+/*.section.about {
+	border-bottom: 1px solid #ddd;
+}*/
+.section {
 	border-bottom: 1px solid #ddd;
 }
 
@@ -1100,4 +1131,18 @@ body[class*="landing"] .list-inline.social-inline .github a:hover,
   margin-left: 480px;
   height: 35px;
   width: 80px;
+}
+
+
+.customers .block {
+	height: 80px;
+	
+}
+
+.customers .content {
+	margin: auto 0;
+}
+
+.customers {
+	padding-bottom: 50px;
 }
